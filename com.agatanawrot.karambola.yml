@@ -1,8 +1,8 @@
 app-id: com.agatanawrot.karambola
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '22.08'
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 command: com.agatanawrot.karambola
 separate-locales: false
@@ -18,13 +18,13 @@ modules:
 
     sources:
       - type: archive
-        url: https://holypangolin.com/stuff/karambola/1.6.0/karambola-1.6.0-linux-amd64.tar.gz
-        sha256: 32d0054514d8d52f742e3fa74241fcc5bbf2a65327900fda6081a582c862aa98
+        url: https://holypangolin.com/stuff/karambola/1.6.2/karambola-1.6.2-linux-amd64.tar.gz
+        sha256: 3172d7b807772969db978273d739ac519f3b769bddab2f6e0544b0cc017803d5
         only-arches:
           - x86_64
       - type: archive
-        url: https://holypangolin.com/stuff/karambola/1.6.0/karambola-1.6.0-linux-arm64.tar.gz
-        sha256: 96826caa2dd0b233f61c18a62937891e94bb3ac44600295a0cfef50e8a1c721c
+        url: https://holypangolin.com/stuff/karambola/1.6.2/karambola-1.6.2-linux-arm64.tar.gz
+        sha256: 933138604df384d2f59330ae2bee8ddf90dbfe4b85cec52ceaa845f7d11bd67a
         only-arches:
           - aarch64
       - type: script
