@@ -17,13 +17,13 @@ modules:
 
     sources:
       - type: archive
-        url: https://holypangolin.com/stuff/karambola/1.6.8/karambola-1.6.8-linux-amd64.tar.gz
-        sha256: 3c04efbd54d076db0b0fce4314f0536fca490457eafbba70775a34ef771357a7
+        url: https://holypangolin.com/stuff/karambola/1.8.0/karambola-1.8.0-linux-amd64.tar.gz
+        sha256: f838038e6ab9e2d44c13c57ad08c9cd9849d145f84d8e48826806da3b60110ba
         only-arches:
           - x86_64
       - type: archive
-        url: https://holypangolin.com/stuff/karambola/1.6.8/karambola-1.6.8-linux-arm64.tar.gz
-        sha256: 20aa43ba2219710df75f889e6c8461933a7b338a3a3e22590a84e1cdbae53f7c
+        url: https://holypangolin.com/stuff/karambola/1.8.0/karambola-1.8.0-linux-arm64.tar.gz
+        sha256: a9b046f085901b5ba702f2c1244596e43a16094c7c9b7f9e1e6a826f07437411
         only-arches:
           - aarch64
       - type: script
